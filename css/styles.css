@@ -7,3 +7,18 @@ header.main-header {
     color: whitesmoke;
 }
 
+div.headline,
+div.signup-form,
+form.contact-info-form, 
+fieldset.contact-info-form,
+fieldset.newsletter-pref-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+fieldset.contact-info-form {
+    border: none;
+}
