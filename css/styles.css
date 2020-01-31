@@ -22,3 +22,16 @@ fieldset.newsletter-pref-form {
 fieldset.contact-info-form {
     border: none;
 }
+
+.placeholder-text {
+    font-style: italic;
+    text-align: right;
+    font-size: small;    
+}
+
+input.contact-info,
+select.contact-info {
+    height: 45px;
+    width: 100%;
+    padding-right: 15px;
+}
