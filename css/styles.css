@@ -34,4 +34,7 @@ select.contact-info {
     height: 45px;
     width: 100%;
     padding-right: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(166, 174, 182, 0.219);
 }
