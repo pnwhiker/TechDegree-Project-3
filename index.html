@@ -109,25 +109,29 @@
 
                     <h4>Select the newsletter(s) your would like to receive:</h4>
 
-                    <input type="checkbox" id="html_news" value="newsletter_html_news">
-                    <label class="" for="html_news">HTML News</label> <br>
-                    
-                    <input type="checkbox" id="css_news" value="newsletter_css_news">
-                    <label class="" for="css_News">CSS News</label> <br>
+                        <div class="selection_options">
 
-                    <input type="checkbox" id="javascript_news" value="newsletter_javascript_news">
-                    <label class="" for="javascript_news">Javascript News</label> <br>
+                            <input type="checkbox" id="html_news" value="newsletter_html_news">
+                            <label class="newsletter_label" for="html_news">HTML News</label> <br> <br>
+                            
+                            <input type="checkbox" id="css_news" value="newsletter_css_news">
+                            <label class="newsletter_label" for="css_News">CSS News</label> <br> <br>
 
-                    <h4>Newsletter Format:</h4>
+                            <input type="checkbox" id="javascript_news" value="newsletter_javascript_news">
+                            <label class=newsletter_label"" for="javascript_news">Javascript News</label> <br>
 
-                    <input type="radio" id="html_newsletter_format" value="newsletter_html_news">
-                    <label class="" for="html_newsletter_format">HTML</label> <br>
-                    
-                    <input type="radio" id="plaintext_newsletter_format" value="newsletter_css_news">
-                    <label class="" for="plaintext_newsletter_format">Plain Text</label> <br> <br>
+                            <h4>Newsletter Format:</h4>
 
-                    <label class="" for="additional_comments">Other Topics You'd Like to Hear About</label> <br> 
-                    <textarea id="additional_comments" name="additional_comments"></textarea>
+                            <input type="radio" id="html_newsletter_format" value="newsletter_html_news" name="format_choice">
+                            <label class="newsletter_label" for="html_newsletter_format">HTML</label> <br> <br>
+                            
+                            <input type="radio" id="plaintext_newsletter_format" value="newsletter_css_news" name="format_choice">
+                            <label class="newsletter_label" for="plaintext_newsletter_format">Plain Text</label> <br> <br>
+
+                            <label class="newsletter_label" for="additional_comments">Other Topics You'd Like to Hear About</label> <br> <br>
+                            <textarea id="additional_comments" name="additional_comments"></textarea>
+
+                        </div>
 
                 </fieldset>
 

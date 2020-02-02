@@ -10,8 +10,7 @@ header.main-header {
 div.headline,
 div.signup-form,
 form.contact-info-form, 
-fieldset.contact-info-form,
-fieldset.newsletter-pref-form {
+fieldset.contact-info-form {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -38,3 +37,13 @@ select.contact-info {
     border: none;
     background-color: rgb(166, 174, 182, 0.219);
 }
+
+label {
+    padding-bottom: 8px;
+}
+
+input:focus {
+    border: 2px solid rgba(84, 152, 219, 0.219)
+
+}
+
