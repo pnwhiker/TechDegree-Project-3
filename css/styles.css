@@ -8,9 +8,9 @@ header.main-header {
 }
 
 div.headline,
-div.signup-form,
 form.contact-info-form, 
-fieldset.contact-info-form {
+fieldset.contact-info-form,
+div.contact-inputs {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -47,3 +47,10 @@ input:focus {
 
 }
 
+@media (min-width: 768px) {
+    label.input,
+    #name {
+        display: inline-block;
+    }
+
+}
