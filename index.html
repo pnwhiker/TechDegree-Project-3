@@ -3,8 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Courier+Prime&display=swap" rel="stylesheet"> -->
+
   <title>Newsletter Signup Form - THE CODE REVIEW</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -22,29 +21,42 @@
 
        
 
-            <form class="contact-info-form" action="index.htnl" method="POST">
+            <form action="index.html" method="POST">
                 <fieldset class="contact-info-form">
                     
                     <legend><h2>Contact Information</h2></legend>
-                    
+
+                    <div class="flex-paired">
                     <label for="name" class="input">Full Name:</label> 
                     <input type="text" id="name" class="contact-info placeholder-text" name="user_name" placeholder="Required"> <br>
+                    </div>
 
+                    <div class="flex-paired">
                     <label for="email">Email Address:</label>
                     <input type="email" id="email" class="contact-info placeholder-text" name="user_email" placeholder="Required"> <br>
+                    </div>
 
+                    <div class="flex-paired">
                     <label for="phone">Phone Number:</label>
                     <input type="tel" id="phone" class="contact-info" name="user_phone"> <br>
+                    </div>
 
+                    <div class="flex-paired">
                     <label for="address">Street Address:</label>
                     <input type="text" id="address" class="contact-info" name="user_address"> <br>
+                    </div>
 
+                    <div class="flex-paired">
                     <label for="city">City:</label> 
                     <input type="text" id="city" class="contact-info" name="user_city"> <br>
+                    </div>
 
+                    <div class="flex-paired">
                     <label for="state">State:</label> 
                     <!-- <input type="text" id="state" class="contact-info" name="user_state"> <br> -->
+                    </div>   
 
+                    <div class="flex-paired">
                     <select for="state" class="contact-info" name="user_state">
                         <option value="Choose State">Choose State</option>
                         <option value="Alabama">Alabama</option>
@@ -99,10 +111,12 @@
                         <option value="Wisconsin">Wisconsin</option>
                         <option value="Wyoming">Wyoming</option>
                     </select> <br>
+                    </div>
 
+                    <div class="flex-paired">
                     <label for="zipcode">Zip Code:</label> 
                     <input type="text" id="zipcode" class="contact-info" name="user_zipcode"> <br>
-
+                    </div>
                 
                 
                     <legend><h2>Newsletter</h2></legend>

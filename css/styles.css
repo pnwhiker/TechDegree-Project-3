@@ -1,4 +1,16 @@
 
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0 auto;
+    max-width: 768px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;
+  }
+  
+
 header.main-header {
     display: flex;
     flex-direction: row;
@@ -6,16 +18,9 @@ header.main-header {
     background-color: darkslategray;
     color: whitesmoke;
 }
-
-div.headline,
-form.contact-info-form, 
-fieldset.contact-info-form,
-div.contact-inputs {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+.contact-info {
+    padding: 50px 50px 35px 50px;
+    border: none;
 }
 
 fieldset.contact-info-form {
@@ -28,15 +33,11 @@ fieldset.contact-info-form {
     font-size: small;    
 }
 
-input.contact-info,
-select.contact-info {
-    height: 45px;
-    width: 100%;
-    padding-right: 15px;
-    border-radius: 5px;
-    border: none;
-    background-color: rgb(166, 174, 182, 0.219);
+.contact-info-form .flex-paired {
+    display: flex;
+    flex-direction: column;
 }
+
 
 label {
     padding-bottom: 8px;
