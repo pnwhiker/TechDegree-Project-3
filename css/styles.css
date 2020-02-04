@@ -5,59 +5,29 @@
 
   body {
     margin: 0 auto;
-    max-width: 768px;
     font-family: "Raleway", sans-serif;
-    font-weight: 200;
+    font-weight: 200;    
   }
   
+
 
 header.main-header {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    max-width: 100%;
+    max-width: 100vw;
     background-color: darkslategray;
     color: whitesmoke;
 }
-.contact-info {
-    padding: 50px 50px 35px 50px;
-    border: none;
-}
 
-fieldset.contact-info-form {
-    border: none;
-}
-
-.placeholder-text {
-    font-style: italic;
-    text-align: right;
-    vertical-align: middle;
-    font-size: small;    
-}
-
-.contact-info-form .flex-paired {
-    display: flex;
-    flex-direction: column;
-}
-
-input.contact-info {
-    height: 45px;
-    border-radius: 9px;
-    background-color: rgba(166, 174, 182, 0.219)    
-}
-
-
-
-label {
-    padding-bottom: 8px;
-}
-
-input.contact-info:focus {
-    border: 2px solid rgba(84, 152, 219, 0.219);
-    border-radius: 9px;
-}
 
 @media (min-width: 768px) {
+    .contact-info-form  {
+        display: flex;
+        flex-direction: row;
+        
+    }
 
+    
 
 }
