@@ -5,11 +5,15 @@
 
   body {
     margin: 0 auto;
-    font-family: "Raleway", sans-serif;
-    font-weight: 200;    
+    font-family: 'Merriweather', serif;
+    font-weight: 200;
+    max-width: 768px;    
   }
   
-
+.placeholder-text {
+    text-align: right;
+    font-style: italic;
+}
 
 header.main-header {
     display: flex;
@@ -20,13 +24,65 @@ header.main-header {
     color: whitesmoke;
 }
 
+.contact-info-form,
+.newsletter-pref-form {
+    padding: 50px 50px 35px 50px;
+    border: none;
+  }
 
-@media (min-width: 768px) {
-    .contact-info-form  {
+  input,
+  select {
+      height: 50px;
+      border: none;
+      background-color:rgba(167, 173, 184, 0.459);
+      border-radius: 5px;
+    } 
+
+  
+
+  .contact-info-form .flex-paired,
+  .newsletter-pref-form  {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+
+  .newsletter-pref-form .flex-paired-prefs {
         display: flex;
+        align-items: center;
+  }
+
+  .newsletter-pref-form label {
+      padding-left: 15px;
+  }
+
+ 
+@media (min-width: 768px) {
+    .contact-info-form .flex-paired  {
         flex-direction: row;
+        padding-bottom: 15px;
+        align-items: center;
         
     }
+
+    .contact-info-form label {
+        flex-basis: 25%;
+        height: 45px;
+        margin: auto 0;
+        padding-top: 13px;
+    }
+
+    .contact-info-form input,
+    select {
+        flex: 1 75%;
+        height: 45px;
+        margin: auto 0;
+    }
+
+    .newsletter-pref-form input {
+        border: none;
+    }
+}
 
     
 
