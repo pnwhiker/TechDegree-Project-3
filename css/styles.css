@@ -11,9 +11,14 @@
     max-width: 768px;    
   }
 
-  h1.top-headline,
-  legend {
+  h1.top-headline   {
       color: black;
+  }
+
+  legend {
+      font-size: 24px;
+      color: black;
+      
   }
   
 .placeholder-text {
@@ -41,6 +46,7 @@ div.headline {
 .newsletter-pref-form {
     padding: 50px 50px 35px 50px;
     border: none;
+    margin-top: 20px;
   }
 
   input,
