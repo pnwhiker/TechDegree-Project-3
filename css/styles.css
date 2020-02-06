@@ -38,7 +38,15 @@ header.main-header {
       border-radius: 5px;
     } 
 
-  
+  button {
+    width: 100%;
+    color: whitesmoke;
+    background-color: teal;
+    border-radius: 5px;
+    height: 50px;
+    margin-top: 25px;
+
+  }
 
   .contact-info-form .flex-paired,
   .newsletter-pref-form  {
@@ -58,13 +66,16 @@ header.main-header {
 
   label.textarea_label {
       margin-left: -15px;
-      margin-top: 
+      margin-top: 35px;
   }
 
   textarea {
       width: 100%;
       margin-top: 15px;
       height: 75px;
+      background-color:rgba(167, 173, 184, 0.459);
+      border-radius: 5px;
+      border: none;
   }
 
  
