@@ -42,6 +42,11 @@ div.headline {
     border-bottom: solid black 8px;
    
 }
+
+input[id=zipcode]{
+    width: 50%;
+}
+
 .contact-info-form,
 .newsletter-pref-form {
     padding: 50px 50px 35px 50px;
@@ -134,7 +139,7 @@ div.headline {
         border: none;
     }
 
-   
+   div.zipcode
 }
 
     
